@@ -1,7 +1,3 @@
-#Add a callout under the first time debt overcame GDP - 
-#e.g. hasn't happened since X, also what are the actual data points
-
-
 library(tidyverse)
 library(lubridate)
 library(httr)
@@ -157,4 +153,4 @@ of World War II.",
            family = "Helvetica Bold")
   
 
-#ggsave("U.S. Debt.png", height = 4.4, width = 12.6, units = "in")
+ggsave("U.S. Debt.png", height = 4.8, width = 8.64, units = "in")
